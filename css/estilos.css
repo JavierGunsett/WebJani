@@ -1,0 +1,128 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /** Reset para REMS - 62.5%= 10px de 16px**/
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+.contenedor {
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+
+/*Letras!*/
+
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    font-size: 3.4rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 2.6rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*Header*/
+
+.site-header {
+    padding: 1rem 0rem 3rem 0rem;
+}
+
+.site-header.inicio {
+    background-image: url(../img/fondo2.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100rem;
+    min-height: 40rem;
+}
+
+.contenido-header {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    background-size: cover;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    /*flex-end justifica a la derecha*/
+    align-items: center;
+    background-color: black;
+    background-size: cover;
+}
+
+
+/*Header redes sociales*/
+
+
+/* .socialmedia {
+    display: block;
+    list-style: none;
+    float: left;
+    clear: both;
+    position: absolute;
+    padding: 0;
+    margin: 1rem 0rem 0rem 0rem;
+}
+
+.socialmedia a {
+    color: white;
+    text-decoration: none;
+}
+
+.socialmedia a:hover {
+    color: teal;
+} */
+
+
+/*Barra de navegacion*/
+
+
+/* .logox {
+    width: 40rem;
+    height: 40rem;
+}
+
+.navegacion {
+    display: block;
+}
+
+.navegacion a {
+    color: white;
+    text-decoration: none;
+    font-size: 2.2rem;
+    display: block;
+} */
+
+footer {
+    background-color: black;
+    background-size: cover;
+    color: white;
+}
